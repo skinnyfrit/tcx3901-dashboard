@@ -1,5 +1,6 @@
 .streamlit/secrets.toml
 .vscode/
+EDA.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
