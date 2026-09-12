@@ -1,0 +1,9 @@
+
+ipykernel < 7.0.0
+
+pandas
+numpy
+matplotlib
+seaborn
+
+streamlit
