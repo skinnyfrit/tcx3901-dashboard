@@ -1,9 +1,6 @@
-
-ipykernel < 7.0.0
-
-pandas
-numpy
-matplotlib
-seaborn
+matplotlib==3.11.1
+numpy==1.21.6
+pandas==1.3.2
+seaborn==0.13.2
 
 streamlit

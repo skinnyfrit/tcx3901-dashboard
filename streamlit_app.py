@@ -330,3 +330,5 @@ for ax, categories, title in zip(
 handles, labels = axes[0].get_legend_handles_labels()
 fig.legend(handles, labels, title="Score Class", loc="center left", bbox_to_anchor=(1, 0.5))
 display_figure(fig)
+
+st.pyplot()
