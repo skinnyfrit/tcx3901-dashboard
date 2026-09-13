@@ -129,13 +129,13 @@ for ax, column, title in zip(
 	ax.set_ylabel("Count")
 display_figure(fig)
 
-st.subheader("Customer Offset")
-fig, ax = plt.subplots(figsize=(8, 3))
-sns.boxplot(data=data, x="customer_offset", y="review_score", ax=ax)
-ax.set_title("Review Score Distribution by Customer ETA Offset")
-ax.set_xlabel("Offset days from customer ETA")
-ax.set_ylabel("Review Score")
-display_figure(fig)
+# st.subheader("Customer Offset")
+# fig, ax = plt.subplots(figsize=(8, 3))
+# sns.boxplot(data=data, x="customer_offset", y="review_score", ax=ax)
+# ax.set_title("Review Score Distribution by Customer ETA Offset")
+# ax.set_xlabel("Offset days from customer ETA")
+# ax.set_ylabel("Review Score")
+# display_figure(fig)
 
 st.header("Numerical Features")
 selected_columns = [
@@ -330,5 +330,3 @@ for ax, categories, title in zip(
 handles, labels = axes[0].get_legend_handles_labels()
 fig.legend(handles, labels, title="Score Class", loc="center left", bbox_to_anchor=(1, 0.5))
 display_figure(fig)
-
-st.pyplot()
