@@ -1,26 +1,21 @@
-# 🎈 Blank app template
+# TCX3901 Industrial Practice Dashboard
 
-A simple Streamlit app template for you to modify!  
-Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/).
+Simple dashboard documenting graphs and charts for AY2026/27 TCX3901 Industrial Practice (Business Analytics) [project repository](https://github.com/skinnyfrit/ay2627-tcx3901).
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tcx3901-gtyj.streamlit.app/)
 
 ### How to run it on your own machine
 
-Prerequisite: install `uv` if you don't already have it.
-
+Ensure `streamlit` is installed on your local system
 ```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
+pip install streamlit
 ```
 
-1. Sync the dependencies
+Then run:
+```
+streamlit run streamlit_app.py
+```
 
-   ```
-   $ uv sync
-   ```
-
-2. Run the app
-
-   ```
-   $ uv run streamlit run streamlit_app.py
-   ```
+## References
+* [Streamlit documentation](https://docs.streamlit.io/)
+* [Project repository](https://github.com/skinnyfrit/ay2627-tcx3901)
